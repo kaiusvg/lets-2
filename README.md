@@ -75,3 +75,16 @@ conforme:
         {"from": 3, "to": 3, "read": "B", "write": "B", "dir":"R"},
         {"from": 3, "to": 4, "read": "", "write": "", "dir":"L"}      
     ]
+
+Como Executar:
+
+
+Execute o comando:
+
+python simulador.py maquina.json entrada.txt saida.txt
+
+maquina.json: arquivo com a especificação da máquina de Turing
+
+entrada.txt: arquivo com as palavras a serem processadas
+
+saida.txt: arquivo que será gerado com a fita final de cada entrada.
